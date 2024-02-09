@@ -27,7 +27,7 @@ export const parseGraph = (data) => {
         if (Number(count) > maxCount) {
             maxCount = Number(count);
             maxRegion = region
-        };
+        }
 
         if (memo[year]) memo[year][region] = count
         else memo[year] = {year, [region]: count}

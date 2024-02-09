@@ -33,7 +33,7 @@
     list-style: none;
     border: solid 1px #eee;
     background-color: #eee;
-    padding: 5px 0px;
+    padding: 5px 0;
     z-index: 5;
     cursor: pointer;
 }
