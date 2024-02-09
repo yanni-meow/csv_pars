@@ -1,0 +1,15 @@
+.count {
+    width: max-content;
+    padding: 16px;
+    border-radius: 50%;
+    background-color: grey;
+    font-weight: bold;
+}
+
+.count.red {
+    background-color: red;
+}
+
+.count.green {
+    background-color: green;
+}

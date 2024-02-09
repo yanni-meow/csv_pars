@@ -1,0 +1,58 @@
+.dropdown {
+    position: relative;
+    width: 300px;
+}
+
+.button {
+    border: solid 1px #eee;
+    font-size: 14px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.arrow {
+    transition: all 420ms ease-out;
+    transform: rotate(90deg);
+}
+
+.arrow.opened {
+    transform: rotate(-90deg);
+}
+
+.options {
+    display: none;
+    position: absolute;
+    box-sizing: border-box;
+    left: 0;
+    width: 100%;
+    max-height: 400px;
+    overflow: auto;
+    list-style: none;
+    border: solid 1px #eee;
+    background-color: #eee;
+    padding: 5px 0px;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.options.opened {
+    display: block;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: #eee;
+}
+
+.checkbox {
+    margin-right: 6px;
+}
