@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/csv_pars/static/css/main.95ef89d8.css",
+    "main.js": "/csv_pars/static/js/main.95d4767b.js",
+    "index.html": "/csv_pars/index.html",
+    "main.95ef89d8.css.map": "/csv_pars/static/css/main.95ef89d8.css.map",
+    "main.95d4767b.js.map": "/csv_pars/static/js/main.95d4767b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95ef89d8.css",
+    "static/js/main.95d4767b.js"
+  ]
+}
